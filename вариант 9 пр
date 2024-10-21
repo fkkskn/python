@@ -1,0 +1,28 @@
+#1
+swith_1 = False
+swith_2 = False
+user_input = input("Включить?(да/нет):")
+if user_input == "да":
+    swith_1 = True
+    swith_2 = True
+    print("Всё включено")
+else:
+    print("Изначальные значения разъёмов:")
+print(f"swith_1:{swith_1}")
+print(f"swith_2:{swith_2}")
+
+#2
+number = int(input("Введите число:"))
+if number > 0:
+    if number % 2 == 0:
+        print(True,"even")
+    else:
+        print(True,"odd")
+else:
+        print(False)
+#3
+input_string = input ("Введите строку:")
+if input_string [0]=="/":
+    print("command")
+else:
+    print("It's string")
